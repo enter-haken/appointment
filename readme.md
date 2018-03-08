@@ -5,7 +5,7 @@ It will display the ten most recent appointments of a `google calendar`.
 
 ## requirements
 
-latest version of [vue-cli][vue-cli].
+latest version of [vue-cli][vuecli].
 
     $ npm install -g @vue/cli
 
