@@ -3,6 +3,12 @@
 This is a test project to get in touch with `vue` and the `google api`.
 It will display the ten most recent appointments of a `google calendar`.
 
+## requirements
+
+latest version of [vue-cli][vue-cli].
+
+    $ npm install -g @vue/cli
+
 ## first time preparations
 
 For the first time run you must create an `oauth2 client id` in the [google api console][googleapiconsole].
@@ -46,3 +52,4 @@ Jan Frederik Hake, <jan_hake@gmx.de>. [@enter_haken](https://twitter.com/enter_h
 
 [googleapiconsole]: https://console.developers.google.com
 [vueclidocenv]: https://github.com/vuejs/vue-cli/blob/dev/docs/env.md
+[vuecli]: https://github.com/vuejs/vue-cli
