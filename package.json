@@ -1,0 +1,44 @@
+{
+  "name": "appointment",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode production",
+    "build": "vue-cli-service build",
+    "dev-build": "vue-cli-service build --mode development",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "moment": "^2.21.0",
+    "vue": "^2.5.13",
+    "vue-material": "^1.0.0-beta-7"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.5",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.5",
+    "@vue/cli-service": "^3.0.0-beta.5",
+    "vue-template-compiler": "^2.5.13"
+  },
+  "babel": {
+    "presets": [
+      "@vue/app"
+    ]
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ]
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
