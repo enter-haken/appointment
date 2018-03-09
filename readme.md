@@ -3,6 +3,8 @@
 This is a test project to get in touch with `vue` and the `google api`.
 It will display the ten most recent appointments of a `google calendar`.
 
+[Demo][demo]
+
 ## requirements
 
 latest version of [vue-cli][vuecli].
@@ -53,3 +55,4 @@ Jan Frederik Hake, <jan_hake@gmx.de>. [@enter_haken](https://twitter.com/enter_h
 [googleapiconsole]: https://console.developers.google.com
 [vueclidocenv]: https://github.com/vuejs/vue-cli/blob/dev/docs/env.md
 [vuecli]: https://github.com/vuejs/vue-cli
+[demo]: http://enter-haken.github.io/example/vue/index.html
